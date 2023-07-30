@@ -6,6 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
@@ -14,6 +15,11 @@
     font-size: 1.25rem;
     font-weight: 600;
     border: 0;
+}
+
+main{
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 header {
@@ -74,7 +80,52 @@ nav li a {
     margin-top: 20px;
 }
 
+/* Feature style start hear */
+
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+
+.teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;   
+}
+
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.content-title{
+   
+   font-size: 2.8rem;
+   
+}
+.content-title .quick-list{
+
+   color: #727272;
+   font-weight: 500;
+}
+
+.content-title .of-our{
+    color: #131313;
+    font-weight: 700;
+}
+
+.content-title .text-features{
+
+    color:#FF900E;
+    font-weight: 700;
+}
+
+
+
+
 /* Responsive media quary */
+
+/* Header Responsive */
 
 /* Mobile Device */
 
