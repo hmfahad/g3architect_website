@@ -7,6 +7,10 @@
 }
 
 
+.color-light-gray{
+    color: #727272;
+}
+
 .btn-primary {
     border-radius: 8px;
     background: #FF900E;
@@ -71,9 +75,6 @@ nav li a {
 
 }
 
-.banner-description {
-    color: #727272;
-}
 
 .banner img{
     width: 100%;
@@ -105,7 +106,6 @@ nav li a {
 }
 .content-title .quick-list{
 
-   color: #727272;
    font-weight: 500;
 }
 
@@ -137,8 +137,13 @@ nav li a {
         
     }
 
-    nav{
+    nav, 
+    .teams-container{
         flex-direction: column;
+    }
+
+    .teams-image-container{
+        grid-template-columns: repeat(1, 1fr);
     }
     
  }
@@ -153,7 +158,9 @@ nav li a {
         
     }
 
-    nav{
+    nav,
+    .teams-container
+    {
         flex-direction: column;
     }
     
