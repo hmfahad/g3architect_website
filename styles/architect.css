@@ -176,6 +176,48 @@ nav li a {
     height: 50px;
 }
 
+/* Features style start hear */
+
+.features{
+    display: flex;
+    gap:100px ;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+.features-content .card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.features-content .section-title{
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+}
+
+.ten-years-badge{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 40px;
+    color: #FFF;
+    text-align: center;
+    align-content: center;
+
+}
+
+.ten-years-badge h2{
+    font-size: 4rem;
+    
+}
+
+
+
 /* Responsive media quary */
 
 /* Header Responsive */
